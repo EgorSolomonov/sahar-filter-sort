@@ -1,0 +1,45 @@
+.stickers{
+position: absolute;
+display: flex;
+flex-direction: column; 
+width: 100%;
+bottom: 0px;
+}
+.sticker_novinka{
+    background-image: url(../products_carousel/images/new.svg);
+    width: 100%;
+    height: 34px;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+.sticker_hit{
+    background-image: url(../products_carousel/images/hit.svg);
+    width: 100%;
+    height: 34px;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+.sticker_posledniy_razmer{
+    background-image: url(../products_carousel/images/posledniy_razmer.svg);
+    width: 100%;
+    height: 34px;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+@media (max-width:550px){
+    .sticker_novinka{
+    background-size: contain;
+    height: 20px;
+    }
+    .sticker_hit{
+    background-size: contain;
+    height: 20px;
+    }
+    .sticker_posledniy_razmer{
+    background-size: contain;
+    height: 20px;
+    }
+}
+.prod-carousel .owl-controls .own-nav .owl-prev{
+background-color: inherit;
+}
